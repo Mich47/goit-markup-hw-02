@@ -2,16 +2,177 @@ body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  width: 1600px;
 }
 
+.header {
+  padding: 24px 0 25px 215px;
+  display: flex;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: #000;
   text-decoration: none;
+  margin: 0;
 }
+
 .logo-web {
   color: #2196f3;
+}
+
+.navigation-link,
+.contact-link,
+.address-office,
+.address-link {
+  text-decoration: none;
+}
+
+.navigation-item,
+.contact-item,
+.features-item,
+.product-item,
+.command-item,
+.address-item {
+  list-style: none;
+  display: inline-block;
+}
+
+/* .features-list,
+.product-list,
+.command-list {
+  display: inline-block;
+} */
+.navigation-link,
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: inherit;
+}
+
+.contact-link {
+  color: #757575;
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background: #2f303a;
+  color: #ffffff;
+  padding-top: 200px;
+}
+
+.hero-title {
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  color: inherit;
+  margin-bottom: 200px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+}
+
+.hero-btn:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.features-item {
+  width: 270px;
+}
+
+.features-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.features,
+.command {
+  padding: 94px 0 94px 0;
+}
+
+.product {
+  padding-bottom: 94px;
+}
+
+.product-title,
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.command {
+  background: #f5f4fa;
+  padding-bottom: 94px;
+}
+
+.command-item {
+  background: #fff;
+  width: 270px;
+  padding-bottom: 30px;
+}
+
+.command-img {
+  margin-bottom: 30px;
+}
+
+.command-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.command-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0;
 }
