@@ -40,11 +40,13 @@ body {
   display: inline-block;
 }
 
-/* .features-list,
+.navigation-list,
+.contact-list {
+  /* .features-list,
 .product-list,
-.command-list {
-  display: inline-block;
-} */
+.command-list { */
+  display: flex;
+}
 .navigation-link,
 .contact-link {
   font-weight: 500;
@@ -175,4 +177,29 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0;
+}
+
+.footer {
+  background: #2f303a;
+  padding: 60px 0 0 215px;
+}
+
+.footer > .logo {
+  color: #fff;
+}
+
+.address-office {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
